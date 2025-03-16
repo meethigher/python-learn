@@ -29,3 +29,18 @@ print(add(*numbers))  # 参数解包，输出 3
 
 info = {'a': 1, 'b': 2}
 print(add(**info))  # 关键字参数解包，输出 3
+
+
+# 装饰器
+def decorator(func):
+    def wrapper():
+        print("调用函数前执行")
+        func()
+        print("调用函数后执行")
+    return wrapper
+
+@decorator  # 等价于 say_hello = decorator(say_hello)
+def say_hello():
+    print("Hello, world!")
+
+say_hello()

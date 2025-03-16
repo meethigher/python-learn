@@ -3,10 +3,24 @@ y = 3.14  # 浮点数
 name = "Alice"  # 字符串
 is_active = True  # 布尔值
 
+# 加减乘除
+# 加法
+print(1 + 1)
+# 减法
+print(1 - 1)
+# 乘法
+print(2 * 6)
+# 浮点除法
+print(18 / 5)
+print(17 / 5)
+# 地板除法：向下取整。与 Java 的 / 相同
+print(18 // 5)
+print(17 // 5)
+
 # 切片
 s = "Hello, World!"
 print(s[0:5])  # 输出 "Hello"
-print(s[7:])   # 输出 "World!"
+print(s[7:])  # 输出 "World!"
 
 # 拼接
 s1 = "Hello"
@@ -23,7 +37,6 @@ print("My name is %s, and I am %d years old." % (name, age))
 print("My name is {}, and I am {} years old.".format(name, age))
 # f-string 格式化
 print(f"My name is {name}, and I am {age} years old.")
-
 
 # 增
 my_list = [1, 2, 3]
