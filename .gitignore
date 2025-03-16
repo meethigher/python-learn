@@ -1,4 +1,9 @@
 .idea/
 logs/
-info.md
+dist/
+build/
+*.md
+!README.md
 *.sh
+*.pyc
+*.spec
