@@ -1,0 +1,11 @@
+{
+    "database": {
+        "dbname": "python-learn",
+        "user": "postgres",
+        "password": "postgres",
+        "host": "10.0.0.9",
+        "port": 5432
+    },
+    "query": "SELECT COUNT(*) FROM points;",
+    "iterations": 10
+}
