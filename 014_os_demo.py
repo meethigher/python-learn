@@ -5,9 +5,10 @@ from pathlib import Path
 def main():
     print('当前工作目录:', os.getcwd())
     p = Path('demo_tmp_dir')
+    # exist_ok=True，表示目录已经存在时，继续执行，不抛异常
     p.mkdir(exist_ok=True)
     (p / 'hello.txt').write_text('hello from os_demo')
-    print('创建文件:', p / 'hello.txt')
+    print('创建文件:', (p / 'hello.txt'))
     for name in os.listdir(p):
         print('目录内容:', name)
     # 清理
