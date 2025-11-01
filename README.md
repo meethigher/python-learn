@@ -1,4 +1,10 @@
 # python-learn
+
+分支说明
+
+* master: 杂七杂八的基础语法学习
+* stdlib: 标准库学习
+
 python基础语法学习demo
 
 1. Example01.py: 数据类型
